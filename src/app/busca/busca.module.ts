@@ -12,6 +12,7 @@ import { ParadasComponent } from "./filtros-complementares/paradas/paradas.compo
 import { PrecosComponent } from "./filtros-complementares/precos/precos.component";
 import { PassagemDestaqueComponent } from "./passagem-destaque/passagem-destaque.component";
 import { PassagemComponent } from "./passagem/passagem.component";
+import { BuscaRoutingModule } from "./busca-routing.module";
 
 
 
@@ -31,6 +32,7 @@ import { PassagemComponent } from "./passagem/passagem.component";
     MaterialModule,
     SharedModule,
     ReactiveFormsModule,
+    BuscaRoutingModule
   ],
   exports: [
     BuscaComponent,
