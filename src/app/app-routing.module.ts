@@ -16,6 +16,11 @@ const routes: Routes = [
     path: '',
     redirectTo: '/home',
     pathMatch: 'full'
+  },
+  {
+    path: '**',
+    redirectTo: '/pagina-nao-encontrada',
+    pathMatch: 'full'
   }
 ];
 
