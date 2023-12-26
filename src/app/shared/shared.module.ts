@@ -1,6 +1,7 @@
 import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
 import { ReactiveFormsModule } from "@angular/forms";
+import { RouterModule } from "@angular/router";
 
 import { BannerComponent } from "./banner/banner.component";
 import { BotaoControleComponent } from "./botao-controle/botao-controle.component";
@@ -36,7 +37,8 @@ import { MaterialModule } from "../core/material/material.module";
   imports: [
     CommonModule,
     MaterialModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterModule
   ],
   exports: [
     BannerComponent,
